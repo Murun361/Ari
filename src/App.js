@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { Banner } from './components/banner';
+import { Timer } from './components/timer';
 
 function App() {
 /*
@@ -21,6 +22,7 @@ const { text }=this.state;*/
   return (
     <div className="App">
       <Banner/>
+      <Timer />
     
     </div>
     /*<input value={text.recipient} onChange={e=>this.setState({text:{...text,recipient:e.target.value}})}/>

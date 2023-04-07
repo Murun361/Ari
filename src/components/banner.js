@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react';
 export const Banner = () =>{
     const [loopNum,setLoopNum]=useState(0);
     const [isDeleting,setIsDeleting]=useState(false);
-    const toRotate=["Saina uu? Bi Murun bainaa. Hamgiin huurhun Ari-daa tursun udriin mend hurgeyee"];
+    const toRotate=["Saina uu? Bi Murun bainaa. Tsetsegnees ch huurhun Ari-daa tursun udriin mend hurgeyee"];
     const [delta,setDelta]=useState(200-Math.random()*90);
     const [text,setText]=useState('');
     const period=2000;
@@ -38,9 +38,11 @@ export const Banner = () =>{
 
 
     return (
-
+        
         <section className="banner" id="home">
+            
             <Container>
+                
                 <Row className="align-items-center">
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">
@@ -58,7 +60,7 @@ export const Banner = () =>{
             </Container>
             <div className="birthdayCard">     
     <div className="cardFront">
-      <h3 className="happy">HAPPY BIRTHDAY Love!</h3>
+      <h3 className="happy">Happy Birthday&#128151; </h3>
       <div className="balloons">
         <div className="balloonOne" />
         <div className="balloonTwo" />
@@ -68,9 +70,11 @@ export const Banner = () =>{
     </div>
     <div className="cardInside">
       <h3 className="back">HAPPY BIRTHDAY</h3>
-      <p>Lorem ipsum,</p>
+      <p>Erhem hundet Ari-d</p>
       <p>
-        Happy birthday!! dbqwufvqv
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+       laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
       </p>
       <p className="name">Murun</p>
     </div>

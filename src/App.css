@@ -82,6 +82,19 @@ html, body {
 .txt-rotate>.wrap{
   border-right: 0.08em solid #666;
 }
+.dtext{
+  color: white;
+}
+.day, .hour,.minute,.second{
+  display:inline;
+  font-family: 'Dancing Script', cursive;
+  font-size: 35px;
+  width: 60px;
+}
+.timer{
+  display: inline-flex;
+  width: fit-content;
+}
 
 
 
@@ -111,7 +124,12 @@ html, body {
     position: relative;
     height: 250;
     width: 350;
-    left: 80px;
+    left: 85px;
+  }
+  .day, .hour,.minute,.second{
+    display:inline;
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
   }
 
 }
@@ -134,9 +152,6 @@ html, body {
 .birthdayCard {
   position: relative;
   flex-wrap: nowrap;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 250px;
   height: 350px;
   cursor: pointer;
@@ -172,7 +187,7 @@ html, body {
 }
 
 .happy {
-  font-family: Tahoma, sans-serif;
+  font-family: 'Dancing Script', cursive;
   text-align: center;
   margin: 30px;
   background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
@@ -272,14 +287,14 @@ html, body {
 
 p {
   font-family: "Brush Script MT", cursive;
-  margin: 40px;
+  margin: 30px;
   color: #333;
 }
 
 .name {
   position: absolute;
   left: 150px;
-  top: 200px;
+  top: 280px;
   color: #333;
 }
 
@@ -288,6 +303,6 @@ p {
   color: #333;
   text-align: center;
   margin: 30px;
-  outline-color: #333;
+  outline-color: #ff006e;
   outline-style: dotted;
 }
