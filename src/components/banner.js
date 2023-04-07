@@ -7,8 +7,8 @@ import { useState, useEffect } from 'react';
 export const Banner = () =>{
     const [loopNum,setLoopNum]=useState(0);
     const [isDeleting,setIsDeleting]=useState(false);
-    const toRotate=["Tursun udriin mend hurgeyee"];
-    const [delta,setDelta]=useState(200-Math.random()*100);
+    const toRotate=["Saina uu? Bi Murun bainaa. Hamgiin huurhun Ari-daa tursun udriin mend hurgeyee"];
+    const [delta,setDelta]=useState(200-Math.random()*90);
     const [text,setText]=useState('');
     const period=2000;
     useEffect(()=>{
@@ -47,14 +47,16 @@ export const Banner = () =>{
                             Happy Birthday!
                         </span>
                         <h1>
-                            {`Saina uu? Ari bi Murun baina.`}<span className="wrap">{text}</span>
+                            {``}<span className="wrap">{text}</span>
                         </h1>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={surpriseImg} alt="Surprise img"/>
                     </Col>
                 </Row>
-                    <div className="birthdayCard">     
+                    
+            </Container>
+            <div className="birthdayCard">     
     <div className="cardFront">
       <h3 className="happy">HAPPY BIRTHDAY Love!</h3>
       <div className="balloons">
@@ -73,13 +75,6 @@ export const Banner = () =>{
       <p className="name">Murun</p>
     </div>
   </div>
-
-
-
-
-
-
-            </Container>
         </section>
     );
 }
