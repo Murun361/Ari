@@ -3,10 +3,11 @@ import { Container, Row, Col } from "react-bootstrap"
 //import { ArrowRigightCircle } from "react-bootstrap-icons"
 import surpriseImg from "../assets/img/2.svg"
 import { useState, useEffect } from 'react';
+
 export const Banner = () =>{
     const [loopNum,setLoopNum]=useState(0);
     const [isDeleting,setIsDeleting]=useState(false);
-    const toRotate=["Sainuu Ari tursun udriin mend hurgeyee"];
+    const toRotate=["Tursun udriin mend hurgeyee"];
     const [delta,setDelta]=useState(200-Math.random()*100);
     const [text,setText]=useState('');
     const period=2000;
@@ -33,7 +34,11 @@ export const Banner = () =>{
             setDelta(500);
         }
     }
+
+
+
     return (
+
         <section className="banner" id="home">
             <Container>
                 <Row className="align-items-center">
@@ -42,7 +47,7 @@ export const Banner = () =>{
                             Happy Birthday!
                         </span>
                         <h1>
-                            {`Hi Murun baina.`}<span className="wrap">{text}</span>
+                            {`Saina uu? Ari bi Murun baina.`}<span className="wrap">{text}</span>
                         </h1>
                     </Col>
                     <Col xs={12} md={6} xl={5}>
@@ -68,6 +73,12 @@ export const Banner = () =>{
       <p className="name">Murun</p>
     </div>
   </div>
+
+
+
+
+
+
             </Container>
         </section>
     );
