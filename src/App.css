@@ -82,14 +82,24 @@ html, body {
 .txt-rotate>.wrap{
   border-right: 0.08em solid #666;
 }
-.dtext{
-  color: white;
+.dtext,.mtext,.stext,.htext{
+  color: black;
+}
+.stext{
+  padding-left: 10px;
+}
+.htext{
+  padding-right: 5px;
 }
 .day, .hour,.minute,.second{
   display:inline;
   font-family: 'Dancing Script', cursive;
   font-size: 35px;
   width: 60px;
+  margin: 0;
+}
+.day>h1,.hour>h1, .minute>h1, .second>h1{
+  margin-bottom: 0;
 }
 .timer{
   display: inline-flex;

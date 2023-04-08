@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Banner } from './components/banner';
 import { Timer } from './components/timer';
+import { FirstMetTimer } from './components/firstMetTimer';
 
 function App() {
 /*
@@ -21,6 +22,7 @@ const { text }=this.state;*/
 
   return (
     <div className="App">
+      <FirstMetTimer/>
       <Banner/>
       <Timer />
     
