@@ -18,7 +18,6 @@ export const Timer=()=>{
         return ()=>clearInterval(interval)
     },[])
     return(
-        <section>
             <div className="timer">
                     <div className="day">
                         <h1>{days<10 ? "0"+days:days}</h1>
@@ -26,17 +25,16 @@ export const Timer=()=>{
                     </div>
                     <div className="hour">
                     <h1>{hours<10 ? "0"+hours:hours}</h1>
-                        <span className="dtext">Hours</span>
+                        <span className="htext">Hours</span>
                     </div>
                     <div className="minute">
                     <h1>{mins<10 ? "0"+mins:mins}</h1>
-                        <span className="dtext">Minutes</span>
+                        <span className="mtext">Minutes</span>
                     </div>
                     <div className="second">
                     <h1>{sec<10 ? "0"+sec:sec}</h1>
-                        <span className="dtext">Seconds</span>
+                        <span className="stext">Seconds</span>
                     </div>
                 </div>
-        </section>
     )
 }

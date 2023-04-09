@@ -35,7 +35,7 @@ html, body {
 .banner{
   border: none;
   margin-top: 0;
-  padding: 150px 0 100px 0;
+  padding: 80px 0 80px 0;
   background-image: url('./assets/img/banner-bg.png');
   background-position: center;
   background-size: cover;
@@ -83,7 +83,7 @@ html, body {
   border-right: 0.08em solid #666;
 }
 .dtext,.mtext,.stext,.htext{
-  color: black;
+  color: white;
 }
 .stext{
   padding-left: 10px;
@@ -97,13 +97,16 @@ html, body {
   font-size: 35px;
   width: 60px;
   margin: 0;
+  color: #fff;
 }
 .day>h1,.hour>h1, .minute>h1, .second>h1{
   margin-bottom: 0;
 }
 .timer{
   display: inline-flex;
-  width: fit-content;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
 }
 
 

@@ -18,7 +18,6 @@ export const FirstMetTimer=()=>{
         return ()=>clearInterval(interval)
     },[])
     return(
-        <section>
             <div className="timer">
                     <div className="day">
                         <h1>{days<10 ? "0"+days:days}</h1>
@@ -37,6 +36,5 @@ export const FirstMetTimer=()=>{
                         <span className="stext">Seconds</span>
                     </div>
                 </div>
-        </section>
     )
 }
