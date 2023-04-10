@@ -245,6 +245,18 @@ html, body {
   left: 170px;
   top: 20px;
 }
+.click{
+  margin-top: 200px;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  transition: 0.1s;
+  backface-visibility: visible;
+  position: absolute;
+  width: 100%;
+  height: 20%;
+
+}
 
 .balloonOne:before,
 .balloonTwo:before,
