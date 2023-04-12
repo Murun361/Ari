@@ -5,9 +5,9 @@ export const Timer=()=>{
     const [hours,setHours]=useState(0)
     const [mins,setMinutes]=useState(0)
     const [sec,setSeconds]=useState(0)
-    const deadLine="April, 29, 2023"
+    const deadLine="April, 11, 2023"
     const getTime=()=>{
-        const time=Date.parse(deadLine)-Date.now()
+        const time=Date.now()-Date.parse(deadLine)
         setDays(Math.floor(time/(1000*60*60*24)))
         setHours(Math.floor(time/(1000*60*60)%24))
         setMinutes(Math.floor((time/1000/60)%60))
