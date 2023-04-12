@@ -67,14 +67,16 @@ export const Banner = () =>{
         <div className="balloonThree" />
         <div className="balloonFour" />
       </div>
+      <div className="click">
+        <h3>click here!</h3>
+      </div>
     </div>
     <div className="cardInside">
       <h3 className="back">HAPPY BIRTHDAY</h3>
-      <p>Erhem hundet Ari-d</p>
+      <p>Dear my beloved Ari</p>
       <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-      ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-       laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+      
+      Having you in my life just makes everything better. Thank you for always being there.
       </p>
       <p className="name">Murun</p>
     </div>
